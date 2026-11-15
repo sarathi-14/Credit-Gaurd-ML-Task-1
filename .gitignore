@@ -1,0 +1,36 @@
+# Python Bytecode and Caches
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+
+# Jupyter Notebook Checkpoints
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# Virtual Environments
+venv/
+env/
+.env/
+.venv/
+ENV/
+
+# IDE and Editor configurations
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Large Dataset Files (Optional for GitHub storage limits; data/README.md is tracked)
+data/*.csv
+!data/README.md
+
+# OS specific files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs and temporary files
+*.log
+*.tmp
